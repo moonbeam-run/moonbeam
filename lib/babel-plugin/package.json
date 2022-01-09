@@ -1,0 +1,24 @@
+{
+  "name": "@moonbeam/babel-plugin",
+  "version": "0.0.0",
+  "description": "Babel plugin for transforming Moonbeam JSX",
+  "main": "dist/index.js",
+  "repository": "https://github.com/moonbeam-run/moonbeam",
+  "author": "Aaron Godin <godinaaweb@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --env node --ext .ts --ext .js",
+    "test": "jest"
+  },
+  "prettier": "@aarongodin/eslint-config/prettier.json",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}

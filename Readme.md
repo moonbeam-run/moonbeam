@@ -1,6 +1,6 @@
 > This project is in an early alpha status. Please submit issues with comments, feedback, or bugs and they will be addressed as soon as possible!
 
-## moonbeam
+## Moonbeam
 
 Data modeling and APIs using JSX.
 
@@ -8,7 +8,7 @@ Data modeling and APIs using JSX.
 
 Moonbeam aims to make development of web software easier, faster, and more beginner friendly, all while giving you the tools to build products that are still fast, reliable, and using modern best practices. Moonbeam can provide the core data components of your application, leaving you to focus on your product's differentiating factors.
 
-While Moonbeam is excellent for new apps, POCs, and greenfield projects, the project aims to be a stable solution that can take your project well beyond its initial phase.
+While Moonbeam is excellent for new apps, POCs, and greenfield projects, Moonbeam is also a stable solution that can take your project well beyond its initial phase.
 
 ### Getting Started
 
