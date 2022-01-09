@@ -148,6 +148,20 @@ describe("plugin", () => {
     `)
   })
 
+  it('renders lower-cased JSX identifiers as regular identifiers', () => {
+    expect(
+      render(`
+        export default (
+          <domain name="test" />
+        )
+      `)
+    ).toMatchInlineSnapshot(`
+      "export default moonbeam(domain, {
+        name: \\"test\\"
+      });"
+    `)
+  })
+
   it("renders an element that has JSXExpressionContainer children", () => {
     expect(
       render(`
